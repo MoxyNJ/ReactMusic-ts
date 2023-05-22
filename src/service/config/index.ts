@@ -1,11 +1,11 @@
-const TIME_OUT = 10000;
-let BASE_URL: string;
 
-if (process.env.NODE_ENV == 'development') {
-  // 开发环境
-  BASE_URL = 'http://codercba.com:9002';
-} else {
-  BASE_URL = 'http://codercba.com:9002';
-}
+// 开发
+const devBaseURL: string = "https://musicapi.ninjee.top/";
+// 生产
+const proBaseURL: string = "https://musicapi.ninjee.top/";
+
+
+const TIME_OUT = 10000;
+const BASE_URL = process.env.NODE_ENV === "development" ? devBaseURL : proBaseURL;
 
 export { BASE_URL, TIME_OUT };
