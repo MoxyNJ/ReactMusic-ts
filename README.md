@@ -1,54 +1,58 @@
-# TODO
-1. 播放器还没做
-2. 歌手 / 主播电台 还未完成
+## 技术栈
 
-接口：
-1. http://codercba.com:9002/
-2. https://binaryify.github.io/NeteaseCloudMusicApi
+- Rreact 18 + Type script 4.x 实现音乐网页
 
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## 实现功能
 
-In the project directory, you can run:
+- 推荐、排行榜、歌单、主播电台、歌手和新碟上架等页面获取并展示数据；
+- 榜单内歌曲可添加到播放列表，并播放歌曲；
+- 可查看列表歌曲、当前播放歌曲的歌词；
+- 可切换播放列表歌曲，并支持顺序、单曲、乱序播放；
+- 主播电台、歌手等页面将参数绑定至 URL，可通过 URL 直接打开对应页面的详情数据。
 
-### `npm start`
+## 待实现功能
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- 歌曲搜索功能；
+- 歌单的添加和播放列表的整体替换；
+- 歌曲详情页与URL地址栏的联动问题；
+- more ...
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 相关图片
 
-### `npm run build`
+### 首页轮播图：
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image-20230523143145767](images/README.assets/image-20230523143145767.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### 歌曲详情、歌词内容滚动：
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![image-20230523143313514](images/README.assets/image-20230523143313514.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### 排行榜：
 
-## Learn More
+![image-20230523143228614](images/README.assets/image-20230523143228614.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+### 热门新碟：
+
+![image-20230523143351867](images/README.assets/image-20230523143351867.png)
+
+
+
+### 榜单：
+
+![image-20230523143421186](images/README.assets/image-20230523143421186.png)
+
+
+
+### ：
+
+![6](images/README.assets/6.png)
