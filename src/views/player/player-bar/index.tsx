@@ -251,12 +251,16 @@ const PlayerBar: FC<IProps> = (props): JSX.Element => {
           </div>
           <div className="info">
             <div className="song">
-              <a href="/todo" className="song-name">
-                {songInfo.songName}
-              </a>
-              <a href="/todo" className="singer-name">
-                {songInfo.singerName}
-              </a>
+              <NavLink to="/player">
+                <a href="/" className="song-name" onClick={(e) => e.preventDefault()} >
+                  {songInfo.songName}
+                </a>
+              </NavLink>
+              <NavLink to="/player">
+                <a href="/" className="singer-name"  onClick={(e) => e.preventDefault()} >
+                  {songInfo.singerName}
+                </a>
+              </NavLink>
             </div>
             <div className="progress">
               <Slider
